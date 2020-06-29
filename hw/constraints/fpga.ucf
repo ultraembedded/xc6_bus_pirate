@@ -1,0 +1,85 @@
+# Clock 6MHz onboard oscillator
+NET "clk" LOC = P55;
+NET "clk" PERIOD = 166.667 ns;
+
+# Ext IO
+NET "io[0]" IOSTANDARD = LVCMOS33;
+NET "io[0]" SLEW = SLOW;
+NET "io[0]" LOC = P85;
+NET "io[1]" IOSTANDARD = LVCMOS33;
+NET "io[1]" SLEW = SLOW;
+NET "io[1]" LOC = P92;
+NET "io[2]" IOSTANDARD = LVCMOS33;
+NET "io[2]" SLEW = SLOW;
+NET "io[2]" LOC = P84;
+NET "io[3]" IOSTANDARD = LVCMOS33;
+NET "io[3]" SLEW = SLOW;
+NET "io[3]" LOC = P93;
+NET "io[4]" IOSTANDARD = LVCMOS33;
+NET "io[4]" SLEW = SLOW;
+NET "io[4]" LOC = P83;
+NET "io[5]" IOSTANDARD = LVCMOS33;
+NET "io[5]" SLEW = SLOW;
+NET "io[5]" LOC = P80;
+NET "io[6]" IOSTANDARD = LVCMOS33;
+NET "io[6]" SLEW = SLOW;
+NET "io[6]" LOC = P82;
+NET "io[7]" IOSTANDARD = LVCMOS33;
+NET "io[7]" SLEW = SLOW;
+NET "io[7]" LOC = P81;
+
+# UART (XC6M)
+NET "tx" IOSTANDARD = LVCMOS33;
+NET "tx" SLEW = SLOW;
+NET "tx" LOC = P61;
+NET "rx" IOSTANDARD = LVCMOS33;
+NET "rx" SLEW = SLOW;
+NET "rx" LOC = P62;
+
+# USB
+NET "usb_speed" IOSTANDARD = LVCMOS33;
+NET "usb_speed" SLEW = SLOW;
+NET "usb_speed" LOC = P21;
+NET "usb_vpo" IOSTANDARD = LVCMOS33;
+NET "usb_vpo" SLEW = SLOW;
+NET "usb_vpo" LOC = P22;
+NET "usb_vmo" IOSTANDARD = LVCMOS33;
+NET "usb_vmo" SLEW = SLOW;
+NET "usb_vmo" LOC = P24;
+NET "usb_vm" IOSTANDARD = LVCMOS33;
+NET "usb_vm" SLEW = SLOW;
+NET "usb_vm" LOC = P26;
+NET "usb_vp" IOSTANDARD = LVCMOS33;
+NET "usb_vp" SLEW = SLOW;
+NET "usb_vp" LOC = P27;
+NET "usb_rx" IOSTANDARD = LVCMOS33;
+NET "usb_rx" SLEW = SLOW;
+NET "usb_rx" LOC = P29;
+NET "usb_oe" IOSTANDARD = LVCMOS33;
+NET "usb_oe" SLEW = SLOW;
+NET "usb_oe" LOC = P30;
+NET "usb_mode" IOSTANDARD = LVCMOS33;
+NET "usb_mode" SLEW = SLOW;
+NET "usb_mode" LOC = P32;
+NET "usb_en" IOSTANDARD = LVCMOS33;
+NET "usb_en" SLEW = SLOW;
+NET "usb_en" LOC = P33;
+
+# SPI Flash
+NET "flash_cs" IOSTANDARD = LVCMOS33;
+NET "flash_cs" SLEW = SLOW;
+NET "flash_cs" LOC = P38;
+NET "flash_si" IOSTANDARD = LVCMOS33;
+NET "flash_si" SLEW = SLOW;
+NET "flash_si" LOC = P64;
+NET "flash_so" IOSTANDARD = LVCMOS33;
+NET "flash_so" SLEW = SLOW;
+NET "flash_so" LOC = P65;
+NET "flash_sck" IOSTANDARD = LVCMOS33;
+NET "flash_sck" SLEW = SLOW;
+NET "flash_sck" LOC = P70;
+
+NET "led" IOSTANDARD = LVCMOS33;
+NET "led" SLEW = SLOW;
+NET "led" LOC = P101;
+

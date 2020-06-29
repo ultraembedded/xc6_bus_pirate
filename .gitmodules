@@ -1,0 +1,3 @@
+[submodule "rtl/usb_bridge"]
+	path = rtl/usb_bridge
+	url = https://github.com/ultraembedded/core_usb_bridge.git
