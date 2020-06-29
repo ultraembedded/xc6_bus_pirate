@@ -2,9 +2,8 @@
 
 **This is a re-release of an old project from 2013/2014 but with recently updated RTL.**
 
-The 'Bus Pirate' was an open-source universal bus interface module produced by [Dangerous Prototypes]http://dangerousprototypes.com/docs/Bus_Pirate).  
-Back in 2013/2014, I decided to do a FPGA based version based around the Xilinx Spartan-6 with USB implemented in the FPGA fabric.  
-Here was the [Hack A Day](https://hackaday.com/?s=fpga+bus+pirate) write-up.
+The 'Bus Pirate' was an open-source universal bus interface module produced by [Dangerous Prototypes](http://dangerousprototypes.com/docs/Bus_Pirate).  
+Back in 2013/2014, I decided to do a FPGA based version based around the Xilinx Spartan-6 with USB implemented in the FPGA fabric. Here was the [Hack A Day](https://hackaday.com/?s=fpga+bus+pirate) write-up.
 
 At the time, RISC-V had yet to reach popularity so I implemented an OpenRISC based CPU with a SW based USB stack implementing USB-CDC (virtual serial port) protocol.
 More recently, RISC-V has become the defacto open-source CPU ISA and is hugely more popular than OpenRISC ever was.
