@@ -21,6 +21,12 @@ This is more reliable than the SW implementation and frees up blockRAM for more 
 
 This release makes use of new IP designs  (RISC-V CPU, HW only USB core) on an old HW project.
 
+To clone this project and its dependencies;
+
+```
+git clone --recursive https://github.com/ultraembedded/xc6_bus_pirate.git
+```
+
 ## Hardware
 The HW design is very basic and was based around the hobbyist friendly Spartan6 TQG144 part (LX9).
 *This part is not 5V friendly, and the board has no over-voltage protection on its I/Os...*
