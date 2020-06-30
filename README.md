@@ -44,3 +44,13 @@ The HW design is very basic and was based around the hobbyist friendly Spartan6 
 The design fits in the original 'Bus Pirate' case (DP6037).
 
 ![PCB](docs/pcb.png)
+
+
+## IP Components
+
+Most of the IP cores used in this project are designed by myself and available as easy to follow open-source Verilog modules.
+
+| Name                   | Description                                                 | Provider |
+| ---------------------- | ------------------------------------------------------------| -------- |
+| riscv_top              | [32-bit RISC-V CPU](https://github.com/ultraembedded/riscv) | - |
+| usb_bridge             | [USB Debug Bridge](https://github.com/ultraembedded/core_usb_bridge) | - |
