@@ -53,5 +53,5 @@ Most of the IP cores used in this project are designed by myself and available a
 
 | Name                   | Description                                                 | Provider |
 | ---------------------- | ------------------------------------------------------------| -------- |
-| riscv_top              | [32-bit RISC-V CPU](https://github.com/ultraembedded/riscv) | - |
+| riscv_tcm_top          | [32-bit RISC-V CPU - RV32I](https://github.com/ultraembedded/riscv) | - |
 | usb_bridge             | [USB Debug Bridge](https://github.com/ultraembedded/core_usb_bridge) | - |
